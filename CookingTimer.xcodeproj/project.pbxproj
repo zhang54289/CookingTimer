@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22D565F2BA75E4F00FC8463 /* CookingTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D565E2BA75E4F00FC8463 /* CookingTimerApp.swift */; };
+		F22D56612BA75E4F00FC8463 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D56602BA75E4F00FC8463 /* Persistence.swift */; };
+		F22D56642BA75E4F00FC8463 /* CookingTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F22D56622BA75E4F00FC8463 /* CookingTimer.xcdatamodeld */; };
+		F22D56662BA75E4F00FC8463 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D56652BA75E4F00FC8463 /* ContentView.swift */; };
+		F22D56682BA75E5000FC8463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D56672BA75E5000FC8463 /* Assets.xcassets */; };
+		F22D566C2BA75E5000FC8463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D566B2BA75E5000FC8463 /* Preview Assets.xcassets */; };
+		F22D56762BA75E5000FC8463 /* CookingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D56752BA75E5000FC8463 /* CookingTimerTests.swift */; };
+		F22D56802BA75E5100FC8463 /* CookingTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D567F2BA75E5100FC8463 /* CookingTimerUITests.swift */; };
+		F22D56822BA75E5100FC8463 /* CookingTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D56812BA75E5100FC8463 /* CookingTimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22D56722BA75E5000FC8463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22D56532BA75E4F00FC8463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22D565A2BA75E4F00FC8463;
+			remoteInfo = CookingTimer;
+		};
+		F22D567C2BA75E5100FC8463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22D56532BA75E4F00FC8463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22D565A2BA75E4F00FC8463;
+			remoteInfo = CookingTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22D565B2BA75E4F00FC8463 /* CookingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22D565E2BA75E4F00FC8463 /* CookingTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerApp.swift; sourceTree = "<group>"; };
+		F22D56602BA75E4F00FC8463 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F22D56632BA75E4F00FC8463 /* CookingTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CookingTimer.xcdatamodel; sourceTree = "<group>"; };
+		F22D56652BA75E4F00FC8463 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F22D56672BA75E5000FC8463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22D56692BA75E5000FC8463 /* CookingTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CookingTimer.entitlements; sourceTree = "<group>"; };
+		F22D566B2BA75E5000FC8463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F22D56712BA75E5000FC8463 /* CookingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22D56752BA75E5000FC8463 /* CookingTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerTests.swift; sourceTree = "<group>"; };
+		F22D567B2BA75E5100FC8463 /* CookingTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22D567F2BA75E5100FC8463 /* CookingTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerUITests.swift; sourceTree = "<group>"; };
+		F22D56812BA75E5100FC8463 /* CookingTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22D56582BA75E4F00FC8463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D566E2BA75E5000FC8463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D56782BA75E5100FC8463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22D56522BA75E4F00FC8463 = {
+			isa = PBXGroup;
+			children = (
+				F22D565D2BA75E4F00FC8463 /* CookingTimer */,
+				F22D56742BA75E5000FC8463 /* CookingTimerTests */,
+				F22D567E2BA75E5100FC8463 /* CookingTimerUITests */,
+				F22D565C2BA75E4F00FC8463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22D565C2BA75E4F00FC8463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22D565B2BA75E4F00FC8463 /* CookingTimer.app */,
+				F22D56712BA75E5000FC8463 /* CookingTimerTests.xctest */,
+				F22D567B2BA75E5100FC8463 /* CookingTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22D565D2BA75E4F00FC8463 /* CookingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F22D565E2BA75E4F00FC8463 /* CookingTimerApp.swift */,
+				F22D56602BA75E4F00FC8463 /* Persistence.swift */,
+				F22D56652BA75E4F00FC8463 /* ContentView.swift */,
+				F22D56672BA75E5000FC8463 /* Assets.xcassets */,
+				F22D56692BA75E5000FC8463 /* CookingTimer.entitlements */,
+				F22D56622BA75E4F00FC8463 /* CookingTimer.xcdatamodeld */,
+				F22D566A2BA75E5000FC8463 /* Preview Content */,
+			);
+			path = CookingTimer;
+			sourceTree = "<group>";
+		};
+		F22D566A2BA75E5000FC8463 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22D566B2BA75E5000FC8463 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F22D56742BA75E5000FC8463 /* CookingTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22D56752BA75E5000FC8463 /* CookingTimerTests.swift */,
+			);
+			path = CookingTimerTests;
+			sourceTree = "<group>";
+		};
+		F22D567E2BA75E5100FC8463 /* CookingTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22D567F2BA75E5100FC8463 /* CookingTimerUITests.swift */,
+				F22D56812BA75E5100FC8463 /* CookingTimerUITestsLaunchTests.swift */,
+			);
+			path = CookingTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22D565A2BA75E4F00FC8463 /* CookingTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22D56852BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimer" */;
+			buildPhases = (
+				F22D56572BA75E4F00FC8463 /* Sources */,
+				F22D56582BA75E4F00FC8463 /* Frameworks */,
+				F22D56592BA75E4F00FC8463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookingTimer;
+			productName = CookingTimer;
+			productReference = F22D565B2BA75E4F00FC8463 /* CookingTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22D56702BA75E5000FC8463 /* CookingTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22D56882BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimerTests" */;
+			buildPhases = (
+				F22D566D2BA75E5000FC8463 /* Sources */,
+				F22D566E2BA75E5000FC8463 /* Frameworks */,
+				F22D566F2BA75E5000FC8463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22D56732BA75E5000FC8463 /* PBXTargetDependency */,
+			);
+			name = CookingTimerTests;
+			productName = CookingTimerTests;
+			productReference = F22D56712BA75E5000FC8463 /* CookingTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22D567A2BA75E5100FC8463 /* CookingTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22D568B2BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimerUITests" */;
+			buildPhases = (
+				F22D56772BA75E5100FC8463 /* Sources */,
+				F22D56782BA75E5100FC8463 /* Frameworks */,
+				F22D56792BA75E5100FC8463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22D567D2BA75E5100FC8463 /* PBXTargetDependency */,
+			);
+			name = CookingTimerUITests;
+			productName = CookingTimerUITests;
+			productReference = F22D567B2BA75E5100FC8463 /* CookingTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22D56532BA75E4F00FC8463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F22D565A2BA75E4F00FC8463 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F22D56702BA75E5000FC8463 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F22D565A2BA75E4F00FC8463;
+					};
+					F22D567A2BA75E5100FC8463 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F22D565A2BA75E4F00FC8463;
+					};
+				};
+			};
+			buildConfigurationList = F22D56562BA75E4F00FC8463 /* Build configuration list for PBXProject "CookingTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22D56522BA75E4F00FC8463;
+			productRefGroup = F22D565C2BA75E4F00FC8463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22D565A2BA75E4F00FC8463 /* CookingTimer */,
+				F22D56702BA75E5000FC8463 /* CookingTimerTests */,
+				F22D567A2BA75E5100FC8463 /* CookingTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22D56592BA75E4F00FC8463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D566C2BA75E5000FC8463 /* Preview Assets.xcassets in Resources */,
+				F22D56682BA75E5000FC8463 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D566F2BA75E5000FC8463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D56792BA75E5100FC8463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22D56572BA75E4F00FC8463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D56642BA75E4F00FC8463 /* CookingTimer.xcdatamodeld in Sources */,
+				F22D565F2BA75E4F00FC8463 /* CookingTimerApp.swift in Sources */,
+				F22D56662BA75E4F00FC8463 /* ContentView.swift in Sources */,
+				F22D56612BA75E4F00FC8463 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D566D2BA75E5000FC8463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D56762BA75E5000FC8463 /* CookingTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D56772BA75E5100FC8463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D56802BA75E5100FC8463 /* CookingTimerUITests.swift in Sources */,
+				F22D56822BA75E5100FC8463 /* CookingTimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22D56732BA75E5000FC8463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22D565A2BA75E4F00FC8463 /* CookingTimer */;
+			targetProxy = F22D56722BA75E5000FC8463 /* PBXContainerItemProxy */;
+		};
+		F22D567D2BA75E5100FC8463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22D565A2BA75E4F00FC8463 /* CookingTimer */;
+			targetProxy = F22D567C2BA75E5100FC8463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F22D56832BA75E5100FC8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22D56842BA75E5100FC8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F22D56862BA75E5100FC8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CookingTimer/CookingTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CookingTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22D56872BA75E5100FC8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CookingTimer/CookingTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CookingTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22D56892BA75E5100FC8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CookingTimer";
+			};
+			name = Debug;
+		};
+		F22D568A2BA75E5100FC8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CookingTimer";
+			};
+			name = Release;
+		};
+		F22D568C2BA75E5100FC8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CookingTimer;
+			};
+			name = Debug;
+		};
+		F22D568D2BA75E5100FC8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM6B47L36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huan.zhang.SwiftUI.CookingTimer.CookingTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CookingTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22D56562BA75E4F00FC8463 /* Build configuration list for PBXProject "CookingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22D56832BA75E5100FC8463 /* Debug */,
+				F22D56842BA75E5100FC8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22D56852BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22D56862BA75E5100FC8463 /* Debug */,
+				F22D56872BA75E5100FC8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22D56882BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22D56892BA75E5100FC8463 /* Debug */,
+				F22D568A2BA75E5100FC8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22D568B2BA75E5100FC8463 /* Build configuration list for PBXNativeTarget "CookingTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22D568C2BA75E5100FC8463 /* Debug */,
+				F22D568D2BA75E5100FC8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F22D56622BA75E4F00FC8463 /* CookingTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F22D56632BA75E4F00FC8463 /* CookingTimer.xcdatamodel */,
+			);
+			currentVersion = F22D56632BA75E4F00FC8463 /* CookingTimer.xcdatamodel */;
+			path = CookingTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F22D56532BA75E4F00FC8463 /* Project object */;
+}
